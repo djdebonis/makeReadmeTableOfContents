@@ -1,6 +1,23 @@
 # makeReadmeToc
 a c++ command-line script that will automatically develop a table of contents for a Github README.md or another markdown file.
 
+[makeReadmeToc](#makereadmetoc)
+- [Github README or markdown table of contents](#github-readme-or-markdown-table-of-contents)
+- [status](#status)
+- [prereqs](#prereqs)
+- [installation](#installation)
+	* [Linux/Mac OS (Bash shell)](#linux/mac-os-(bash-shell))
+	* [Windows](#windows)
+- [use](#use)
+	* [compile and make output file](#compile-and-make-output-file)
+	* [check for README.md or other markdown file](#check-for-readme.md-or-other-markdown-file)
+	* [run program](#run-program)
+	* [check for new file](#check-for-new-file)
+		* [multiple arguments](#multiple-arguments)
+- [contribution](#contribution)
+
+Note: the table of contents for this README *was* in fact constructed using this software.
+
 ## Github README or markdown table of contents
 
 Did you arrive here by searching "how do I make a table of contents in gitub?" Maybe you're curious about "how to use anchored 
