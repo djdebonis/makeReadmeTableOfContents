@@ -1,5 +1,5 @@
 # makeReadmeToc
-a c++ command-line script that will automatically develop a table of contents for a Github README.md or another markdown file.
+a c++ command-line script that will automatically develop a table of contents for a Github README.md or another markdown file using the existing headers.
 
 ## table of contents
 
