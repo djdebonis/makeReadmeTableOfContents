@@ -30,7 +30,7 @@ If so, you've come to the right place! And even if not, you still might be able 
 
 ### what is a Github markdown table of contents?
 
-the Githubmarkdown table of  contents is an organized set of links that,  when clicked, automatically direct the user's page to the head of that specific section. For an example of what I mean, [click this link](#table-of-contents] and you will be redirected to the table of contents. Then you can click any of those links and see how it works. You can create these header links manually by writing :
+the Githubmarkdown table of  contents is an organized set of links that,  when clicked, automatically direct the user's page to the head of that specific section. For an example of what I mean, [click this link](#table-of-contents) and you will be redirected to the table of contents. Then you can click any of those links and see how it works. You can create these header links manually by writing :
 ```md
 [text you want displayed in link](#lowercase-name-of-header-divided-by-dashes)
 ```
