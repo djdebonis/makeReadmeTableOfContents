@@ -1,7 +1,10 @@
 # makeReadmeToc
-a c++ command-line script that will automatically develop a table of contents for a Github README.md or another markdown file.
+a c++ command-line script that will automatically develop a table of contents for a Github README.md or another markdown file using the existing headers.
+
+## table of contents
 
 [makeReadmeToc](#makereadmetoc)
+- [table of contents](#table-of-contents)
 - [Github README or markdown table of contents](#github-readme-or-markdown-table-of-contents)
 - [status](#status)
 - [prereqs](#prereqs)
@@ -24,6 +27,13 @@ Did you arrive here by searching "how do I make a table of contents in gitub?" M
 headings for a table of contents in a GitHub README?"
 
 If so, you've come to the right place! And even if not, you still might be able to use this tool!
+
+### what is a Github markdown table of contents?
+
+the Githubmarkdown table of  contents is an organized set of links that,  when clicked, automatically direct the user's page to the head of that specific section. For an example of what I mean, [click this link](#table-of-contents) and you will be redirected to the table of contents. Then you can click any of those links and see how it works. You can create these header links manually by writing :
+```md
+[text you want displayed in link](#lowercase-name-of-header-divided-by-dashes)
+```
 
 ## status
 
@@ -79,7 +89,7 @@ this will return a list of files in that directory. If your file is there, conti
 
 ### run program
 
-Next, you will type `./` into the command line, followed by the name of your output file. Then, you will enter the file you would like to create a table of contents for. In my circumstance, I entered this:
+Next, you will type `./` into the command line, followed by the name of your output file. Then, you will enter the file you would like to create a table of contents for. In my circumstance, I entered `README.md`:
 
 ```bash
 ./desiredFileName.out README.md
