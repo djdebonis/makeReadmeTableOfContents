@@ -54,12 +54,6 @@ cd path/to/where/you/want/repository
 git clone https://github.com/djdebonis/makeReadmeToc
 ```
 
-### Windows
-
-```
-as if I knew how to work a Windows OS...
-```
-
 ## use
 
 ### compile and make output file
